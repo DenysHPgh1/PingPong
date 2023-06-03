@@ -4,6 +4,9 @@ back=(255,200,100)
 widht=700
 height=500
 
+class GameSprite():
+    def __init__(self):
+        self.x=100
 mw=display.set_mode((widht,height))
 mw.fill(back)
 
