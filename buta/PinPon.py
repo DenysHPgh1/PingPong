@@ -33,8 +33,17 @@ mw=display.set_mode((widht,height))
 mw.fill(back)
 
 clock=time.Clock()
+ball
+racket1=Player('racket',30,200,4,50,150)
+racket2=Player('racket',520,200,4,50,150)
 
-game_over=Falsedef update_r(self):
+racket1=reset()
+racket2=reset()
+
+racket1=update
+racket2=update
+
+game_over=False
 
 while not game_over:
     for e in event.get():
@@ -45,7 +54,7 @@ while not game_over:
         ball.rect.x+=speed_x
         ball.rect.y+=speed_y
     
-    if ball.rect
+    if ball.rect.y>width
     
         ball.reset()       
         display.update()
